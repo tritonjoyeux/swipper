@@ -1,0 +1,4 @@
+services:
+    hh:
+        class: Fashiongroup\Swiper\Agents\Hh\HhAgent
+        parent: abstract_agent_with_session

@@ -1,0 +1,4 @@
+services:
+    zhaopin:
+        class: Fashiongroup\Swiper\Agents\Zhaopin\ZhaopinAgent
+        parent: abstract_agent_with_session

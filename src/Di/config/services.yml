@@ -1,0 +1,31 @@
+imports:
+    - { resource: 'agents.yml' }
+    - { resource: 'filters.yml' }
+    - { resource: 'writers.yml' }
+
+services:
+    session:
+        class: Fashiongroup\Swiper\Agents\Session
+        factory: ['Fashiongroup\Swiper\Factory', createSession]
+
+    rss:
+        class: Fashiongroup\Swiper\Rss\RssParser
+        factory: ['Fashiongroup\Swiper\Factory', createRss]
+        arguments: ['@session']
+
+    logger:
+        class: Monolog\Logger
+        factory: ['Fashiongroup\Swiper\Factory', createLogger]
+        arguments: ['swiper', '%logs_dir%']
+
+    store:
+        class: Webmozart\KeyValueStore\JsonFileStore
+        factory: ['Fashiongroup\Swiper\Factory', createStore]
+        arguments: ['swiper', '%data_dir%']
+
+    workflow:
+        class: Fashiongroup\Swiper\Workflow\Workflow
+        arguments: ['@swiper']
+        calls:
+            - [addFilter, ['@filters.already_swiped']]
+            - [setLogger, ['@logger']]

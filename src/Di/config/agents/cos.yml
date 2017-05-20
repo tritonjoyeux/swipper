@@ -1,0 +1,4 @@
+services:
+    cos:
+        class: Fashiongroup\Swiper\Agents\Cos\CosAgent
+        parent: abstract_agent_with_session

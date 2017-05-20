@@ -1,0 +1,4 @@
+services:
+    biba:
+        class: Fashiongroup\Swiper\Agents\Biba\BibaAgent
+        parent: abstract_agent_with_session

@@ -1,0 +1,4 @@
+services:
+    bestseller:
+        class: Fashiongroup\Swiper\Agents\Bestseller\BestsellerAgent
+        parent: abstract_agent_with_session

@@ -1,0 +1,4 @@
+services:
+    computrabajo:
+        class: Fashiongroup\Swiper\Agents\Computrabajo\ComputrabajoAgent
+        parent: abstract_agent_with_session

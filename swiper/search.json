@@ -1,0 +1,125 @@
+{
+  "searches": [
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "au",
+      "extras": {
+        "domaine": "au",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "au"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "cn",
+      "extras": {
+        "domaine": "cn",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "cn"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "hk",
+      "extras": {
+        "domaine": "hk",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "hk"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "jp",
+      "extras": {
+        "domaine": "jp",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "jp"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "my",
+      "extras": {
+        "domaine": "my",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "my"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "kr",
+      "extras": {
+        "domaine": "kr",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "kr"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "sg",
+      "extras": {
+        "domaine": "sg",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "sg"
+      }
+    },
+    {
+      "agent": "career_next",
+      "term": "",
+      "country": "",
+      "extras": {
+        "domaine": "uk",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "uk"
+      }
+    },
+    {
+      "agent": "style_careers",
+      "term": "",
+      "country": "",
+      "extras": {
+        "domaine": "us",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "uk"
+      }
+    },
+    {
+      "agent": "jobs_db",
+      "term": "",
+      "country": "",
+      "extras": {
+        "domaine": "hk",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "hk"
+      }
+    },
+    {
+      "agent": "moiselle",
+      "term": "",
+      "country": "",
+      "extras": {
+        "domaine": "hk",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "hk"
+      }
+    }
+  ]
+}

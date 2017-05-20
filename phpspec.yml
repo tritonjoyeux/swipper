@@ -1,0 +1,4 @@
+suites:
+    fashiongroup_swiper:
+        namespace: Fashiongroup\Swiper
+        psr4_prefix: Fashiongroup\Swiper

@@ -1,0 +1,4 @@
+services:
+    jbcstyle:
+        class: Fashiongroup\Swiper\Agents\Jbcstyle\JbcstyleAgent
+        parent: abstract_agent_with_rss

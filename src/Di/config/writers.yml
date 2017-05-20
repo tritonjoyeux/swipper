@@ -1,0 +1,11 @@
+services:
+    fg_writer_client:
+        class: GuzzleHttp\Client
+        arguments: [{ base_uri: %fg_service_base_uri% }]
+        public: false
+
+    fg_writer:
+        class: Fashiongroup\Swiper\Workflow\Writers\FgWriter
+        arguments: ['@fg_writer_client']
+        calls:
+            - [setLogger, ['@logger']]

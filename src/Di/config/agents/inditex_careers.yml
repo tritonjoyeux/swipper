@@ -1,0 +1,9 @@
+services:
+    inditex_careers_client:
+        class: GuzzleHttp\Client
+        arguments: [{ base_uri: 'https://www.inditexcareers.com' }]
+
+    inditex_careers:
+        class: Fashiongroup\Swiper\Agents\InditexCareers\InditexCareersAgent
+        arguments: ['@inditex_careers_client', '@session']
+        parent: abstract_agent

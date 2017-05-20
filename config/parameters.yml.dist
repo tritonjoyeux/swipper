@@ -1,0 +1,2 @@
+parameters:
+    fg_service_base_uri: http://services.fashiongroup.local

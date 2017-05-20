@@ -1,0 +1,9 @@
+services:
+    career_next_client:
+        class: GuzzleHttp\Client
+        arguments: [{ base_uri: 'https://careers.next.co.uk' }]
+
+    career_next:
+        class: Fashiongroup\Swiper\Agents\CareerNext\CareerNextAgent
+        arguments: ['@career_next_client']
+        parent: abstract_agent

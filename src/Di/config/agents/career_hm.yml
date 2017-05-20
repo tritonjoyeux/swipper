@@ -1,0 +1,4 @@
+services:
+    career_hm:
+        class: Fashiongroup\Swiper\Agents\CareerHm\CareerHmAgent
+        parent: abstract_agent_with_rss_and_session

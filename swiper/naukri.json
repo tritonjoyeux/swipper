@@ -1,0 +1,15 @@
+{
+  "searches": [
+    {
+      "agent": "naukri",
+      "term": "fashion",
+      "country": "delhi",
+      "extras": {
+        "domaine": "in",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "in"
+      }
+    }
+  ]
+}

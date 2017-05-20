@@ -1,0 +1,4 @@
+services:
+    peek_cloppenburg:
+        class: Fashiongroup\Swiper\Agents\PeekCloppenburg\PeekCloppenburgAgent
+        parent: abstract_agent_with_session

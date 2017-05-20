@@ -1,0 +1,4 @@
+services:
+    style_careers:
+        class: Fashiongroup\Swiper\Agents\StyleCareers\StyleCareersAgent
+        parent: abstract_agent_with_session

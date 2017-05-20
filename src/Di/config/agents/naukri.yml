@@ -1,0 +1,9 @@
+services:
+    naukri_client:
+        class: GuzzleHttp\Client
+        arguments: [{ base_uri: 'https://www.naukri.com' }]
+
+    naukri:
+        class: Fashiongroup\Swiper\Agents\Naukri\NaukriAgent
+        arguments: ['@naukri_client']
+        parent: abstract_agent

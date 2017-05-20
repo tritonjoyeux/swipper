@@ -1,0 +1,4 @@
+services:
+    randa:
+        class: Fashiongroup\Swiper\Agents\Randa\RandaAgent
+        parent: abstract_agent_with_rss

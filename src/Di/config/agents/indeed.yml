@@ -1,0 +1,100 @@
+services:
+    indeed_ae:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentAe
+        parent: abstract_agent_with_session
+
+    indeed_au:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentAu
+        parent: abstract_agent_with_session
+
+    indeed_fr:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentFr
+        parent: abstract_agent_with_session
+
+    indeed_in:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentIn
+        parent: abstract_agent_with_session
+
+    indeed_tr:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentTr
+        parent: abstract_agent_with_session
+
+    indeed_ru:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentRu
+        parent: abstract_agent_with_session
+
+    indeed_cn:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentCn
+        parent: abstract_agent_with_session
+
+    indeed_ch:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentCh
+        parent: abstract_agent_with_session
+
+    indeed_at:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentAt
+        parent: abstract_agent_with_session
+
+    indeed_pt:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentPt
+        parent: abstract_agent_with_session
+
+    indeed_nl:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentNl
+        parent: abstract_agent_with_session
+
+    indeed_dk:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentDk
+        parent: abstract_agent_with_session
+
+    indeed_no:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentNo
+        parent: abstract_agent_with_session
+
+    indeed_ie:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentIe
+        parent: abstract_agent_with_session
+
+    indeed_za:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentZa
+        parent: abstract_agent_with_session
+
+    indeed_jp:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentJp
+        parent: abstract_agent_with_session
+
+    indeed_nz:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentNz
+        parent: abstract_agent_with_session
+
+    indeed_hk:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentHk
+        parent: abstract_agent_with_session
+
+    indeed_co:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentCo
+        parent: abstract_agent_with_session
+
+    indeed_ar:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentAr
+        parent: abstract_agent_with_session
+
+    indeed_br:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentBr
+        parent: abstract_agent_with_session
+
+    indeed_cl:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentCl
+        parent: abstract_agent_with_session
+
+    indeed_pe:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentPe
+        parent: abstract_agent_with_session
+
+    indeed_ve:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentVe
+        parent: abstract_agent_with_session
+
+    indeed_ca:
+        class: Fashiongroup\Swiper\Agents\Indeed\IndeedAgentCa
+        parent: abstract_agent_with_session

@@ -1,0 +1,4 @@
+services:
+    58:
+        class: Fashiongroup\Swiper\Agents\FiftyEight\FiftyEightAgent
+        parent: abstract_agent_with_session

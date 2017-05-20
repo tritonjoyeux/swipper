@@ -1,0 +1,4 @@
+services:
+    moiselle:
+        class: Fashiongroup\Swiper\Agents\Moiselle\MoiselleAgent
+        parent: abstract_agent_with_session

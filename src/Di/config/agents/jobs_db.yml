@@ -1,0 +1,4 @@
+services:
+    jobs_db:
+        class: Fashiongroup\Swiper\Agents\JobsDB\JobsDBAgent
+        parent: abstract_agent_with_session

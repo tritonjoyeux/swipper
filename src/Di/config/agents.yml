@@ -1,0 +1,97 @@
+imports:
+    - { resource: 'agents/indeed.yml' }
+    - { resource: 'agents/cos.yml' }
+    - { resource: 'agents/career_next.yml' }
+    - { resource: 'agents/style_careers.yml' }
+    - { resource: 'agents/moiselle.yml' }
+    - { resource: 'agents/jobs_db.yml' }
+    - { resource: 'agents/naukri.yml' }
+    - { resource: 'agents/computrabajo.yml' }
+    - { resource: 'agents/zhaopin.yml' }
+    - { resource: 'agents/hh.yml' }
+    - { resource: 'agents/inditex_careers.yml' }
+    - { resource: 'agents/jbcstyle.yml' }
+    - { resource: 'agents/randa.yml' }
+    - { resource: 'agents/besteam.yml' }
+    - { resource: 'agents/farfetch.yml' }
+    - { resource: 'agents/superdry.yml' }
+    - { resource: 'agents/biba.yml' }
+    - { resource: 'agents/peek_cloppenburg.yml' }
+    - { resource: 'agents/bestseller.yml' }
+    - { resource: 'agents/career_hm.yml' }
+    - { resource: 'agents/58.yml' }
+
+services:
+    abstract_agent:
+        abstract:  true
+        class: Fashiongroup\Swiper\Agents\AbstractAgent
+        tags:
+            - { name: swiper.agent }
+
+    abstract_agent_with_session:
+        abstract:  true
+        class: Fashiongroup\Swiper\Agents\AbstractAgent
+        arguments: ['@session']
+        parent: abstract_agent
+
+    abstract_agent_with_rss:
+            abstract:  true
+            class: Fashiongroup\Swiper\Agents\AbstractAgent
+            arguments: ['@rss']
+            parent: abstract_agent
+
+    abstract_agent_with_rss_and_session:
+                abstract:  true
+                class: Fashiongroup\Swiper\Agents\AbstractAgent
+                arguments: ['@rss', '@session']
+                parent: abstract_agent
+
+    swiper:
+        class: Fashiongroup\Swiper\Swiper
+        parent: abstract_agent
+        calls:
+            - [addAgent, ['@cos']]
+            - [addAgent, ['@career_next']]
+            - [addAgent, ['@style_careers']]
+            - [addAgent, ['@moiselle']]
+            - [addAgent, ['@jobs_db']]
+            - [addAgent, ['@naukri']]
+            - [addAgent, ['@zhaopin']]
+            - [addAgent, ['@computrabajo']]
+            - [addAgent, ['@indeed_ae']]
+            - [addAgent, ['@indeed_au']]
+            - [addAgent, ['@indeed_fr']]
+            - [addAgent, ['@indeed_in']]
+            - [addAgent, ['@indeed_tr']]
+            - [addAgent, ['@indeed_ru']]
+            - [addAgent, ['@indeed_cn']]
+            - [addAgent, ['@indeed_ch']]
+            - [addAgent, ['@indeed_at']]
+            - [addAgent, ['@indeed_pt']]
+            - [addAgent, ['@indeed_nl']]
+            - [addAgent, ['@indeed_dk']]
+            - [addAgent, ['@indeed_no']]
+            - [addAgent, ['@indeed_ie']]
+            - [addAgent, ['@indeed_za']]
+            - [addAgent, ['@indeed_jp']]
+            - [addAgent, ['@indeed_nz']]
+            - [addAgent, ['@indeed_hk']]
+            - [addAgent, ['@indeed_co']]
+            - [addAgent, ['@indeed_ar']]
+            - [addAgent, ['@indeed_br']]
+            - [addAgent, ['@indeed_cl']]
+            - [addAgent, ['@indeed_pe']]
+            - [addAgent, ['@indeed_ve']]
+            - [addAgent, ['@indeed_ca']]
+            - [addAgent, ['@hh']]
+            - [addAgent, ['@inditex_careers']]
+            - [addAgent, ['@jbcstyle']]
+            - [addAgent, ['@randa']]
+            - [addAgent, ['@besteam']]
+            - [addAgent, ['@farfetch']]
+            - [addAgent, ['@superdry']]
+            - [addAgent, ['@biba']]
+            - [addAgent, ['@peek_cloppenburg']]
+            - [addAgent, ['@bestseller']]
+            - [addAgent, ['@career_hm']]
+            - [addAgent, ['@58']]

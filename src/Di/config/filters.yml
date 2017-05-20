@@ -1,0 +1,11 @@
+services:
+
+    filters.already_swiped:
+        class: Fashiongroup\Swiper\Filters\AlreadySwipedFilter
+        arguments: ['@store']
+        calls:
+            - [setLogger, ['@logger']]
+
+    filters.one_month_filter:
+        class: Fashiongroup\Swiper\Filters\OneMonthFilter
+

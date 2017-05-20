@@ -1,0 +1,4 @@
+services:
+    farfetch:
+        class: Fashiongroup\Swiper\Agents\Farfetch\FarfetchAgent
+        parent: abstract_agent_with_session

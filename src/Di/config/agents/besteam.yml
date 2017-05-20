@@ -1,0 +1,9 @@
+services:
+    besteam_client:
+        class: GuzzleHttp\Client
+        arguments: [{ base_uri: 'http://besteam.com.hk/jobSearchResult.aspx?txtKeyword=&ddlCategory=&ddlSalary=0' }]
+
+    besteam:
+        class: Fashiongroup\Swiper\Agents\Besteam\BesteamAgent
+        arguments: ['@naukri_client']
+        parent: abstract_agent

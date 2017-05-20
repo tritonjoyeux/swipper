@@ -1,0 +1,4 @@
+services:
+    superdry:
+        class: Fashiongroup\Swiper\Agents\Superdry\SuperdryAgent
+        parent: abstract_agent_with_rss

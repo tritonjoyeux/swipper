@@ -1,0 +1,47 @@
+{
+    "name": "fashiongroup/swiper",
+    "type": "project",
+    "require": {
+        "symfony/console": "^3.2",
+        "behat/mink": "^1.7",
+        "doctrine/collections": "^1.4",
+        "behat/mink-goutte-driver": "^1.2",
+        "behat/mink-zombie-driver": "^1.4",
+        "behat/mink-sahi-driver": "^1.2",
+        "nesbot/carbon": "^1.22",
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/message": "^1.4",
+        "monolog/monolog": "^1.22",
+        "webmozart/key-value-store": "^1.0",
+        "webmozart/json": "^1.2",
+        "symfony/dependency-injection": "^3.2",
+        "symfony/config": "^3.2",
+        "commerceguys/enum": "^1.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "incenteev/composer-parameter-handler": "^2.1",
+        "deployer/deployer": "^4.2",
+        "symfony/monolog-bridge": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fashiongroup\\Swiper\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.2",
+        "symfony/var-dumper": "^3.2"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters"
+        ],
+        "post-update-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters"
+        ]
+    },
+    "extra": {
+        "incenteev-parameters": {
+            "file": "config/parameters.yml"
+        }
+    }
+}

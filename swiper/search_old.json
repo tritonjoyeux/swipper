@@ -1,0 +1,290 @@
+{
+  "searches": [
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "au",
+      "extras": {
+        "domaine": "au",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "au"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "at",
+      "extras": {
+        "domaine": "at",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "at"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "be",
+      "extras": {
+        "domaine": "be",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "be"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "ca",
+      "extras": {
+        "domaine": "ca",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "ca"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "cn",
+      "extras": {
+        "domaine": "cn",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "cn"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "dk",
+      "extras": {
+        "domaine": "dk",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "dk"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "fi",
+      "extras": {
+        "domaine": "fi",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "fi"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "fr",
+      "extras": {
+        "domaine": "fr",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "fr"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "de",
+      "extras": {
+        "domaine": "de",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "de"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "hk",
+      "extras": {
+        "domaine": "hk",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "hk"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "hu",
+      "extras": {
+        "domaine": "hu",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "hu"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "ie",
+      "extras": {
+        "domaine": "ie",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "ie"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "jp",
+      "extras": {
+        "domaine": "jp",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "jp"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "lv",
+      "extras": {
+        "domaine": "lv",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "lv"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "my",
+      "extras": {
+        "domaine": "my",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "my"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "nl",
+      "extras": {
+        "domaine": "nl",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "nl"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "pl",
+      "extras": {
+        "domaine": "pl",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "pl"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "ro",
+      "extras": {
+        "domaine": "ro",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "ro"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "sg",
+      "extras": {
+        "domaine": "sg",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "sg"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "kr",
+      "extras": {
+        "domaine": "kr",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "kr"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "es",
+      "extras": {
+        "domaine": "es",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "es"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "se",
+      "extras": {
+        "domaine": "se",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "se"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "ch",
+      "extras": {
+        "domaine": "ch",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "ch"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "tr",
+      "extras": {
+        "domaine": "tr",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "tr"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "gb",
+      "extras": {
+        "domaine": "uk",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "uk"
+      }
+    },
+    {
+      "agent": "cos",
+      "term": "",
+      "country": "us",
+      "extras": {
+        "domaine": "us",
+        "sector": 1,
+        "lang": 2,
+        "code_pays": "us"
+      }
+    }
+  ]
+}

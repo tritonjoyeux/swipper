@@ -1,0 +1,6 @@
+vendor
+.idea
+cache
+logs
+data
+config/parameters.yml
